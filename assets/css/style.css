@@ -1,0 +1,188 @@
+/* Your styles here */
+
+h1 {
+  font-size: 2em;
+  font-weight: 700;
+  padding: 0.5em 20px;
+}
+
+h3 {
+  font-size: 1.17em;
+  font-weight: 600;
+  margin: 0.25em 0;
+  font-weight: bold;
+}
+
+ul,
+ol {
+  padding-left: 1em;
+  margin: 1em 0 1em 1em;
+  font-weight: 300;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+li {
+  line-height: 1.6;
+  font-weight: 300;
+  margin: 0.25em 0; /* TOP 0.25, BOTTOM 0.25, 0 LEFT, 0 RIGHT*/
+}
+
+/* cose fondamentali per il setting del css */
+
+/* ora stile della pagina */
+
+body {
+  width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.1;
+  color: #333;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+  color: #333;
+  margin: 0 30px;
+  font-weight: lighter;
+}
+
+header {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 150px;
+}
+
+.banner {
+  background-image: url("/assets/images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 100%;
+}
+
+.banner h1 {
+  margin: 0px;
+  padding-top: 40px;
+  color: rgb(153, 86, 215);
+}
+
+.banner button {
+  background-color: #f04c2f;
+  border: none;
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 10px 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.containerNotebook {
+  padding: 50px 0px;
+}
+
+.containerNotebook h3 {
+  padding: 20px;
+  color: rgb(153, 86, 215);
+}
+
+.containerNotebook img {
+  padding: 50px 0px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.bgRed {
+  background-color: #f04c2f;
+  color: white;
+}
+
+.bgRed h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.8rem;
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.bgRed p {
+  color: white;
+}
+.corsivo {
+  font-size: 1.1em;
+  font-style: italic;
+  margin: 20px 0px;
+}
+
+.ceoP {
+  font-size: 1em;
+  padding-bottom: 50px;
+}
+
+.card {
+  width: 400px;
+  border: 1px solid #dee1e3;
+  margin-bottom: 40px;
+  margin: 40px auto;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h3 {
+  padding: 20px;
+  color: rgb(153, 86, 215);
+}
+
+.card p {
+  font-size: 1.1rem;
+  padding-bottom: 20px;
+  font-weight: lighter;
+}
+
+footer {
+  padding: 30px 0px;
+  background-color: #25a2c3;
+}
+
+footer h1 {
+  color: white;
+  padding: 10px 0px;
+}
+footer a,
+footer p {
+  color: white;
+  font-size: 1rem;
+  padding: 5px 0px;
+}
+
+a {
+  line-height: 1.5em;
+}
+
+hr {
+  width: 45%;
+}
+
+.FooterP {
+  padding-top: 2em;
+  font-size: 0.9rem;
+}
